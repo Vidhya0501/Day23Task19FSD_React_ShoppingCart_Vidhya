@@ -1,3 +1,7 @@
+![image](https://github.com/Vidhya0501/Day23Task19FSD_React_ShoppingCart_Vidhya/assets/136892823/603357e0-487a-45f3-b87e-69b063f8a5c0)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
