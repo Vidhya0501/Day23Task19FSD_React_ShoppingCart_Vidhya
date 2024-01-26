@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 
 function Card({product,handleCart}) {
@@ -27,6 +29,8 @@ function Card({product,handleCart}) {
             <div className="card-body">
                 <h5 className="card-title">{product.name}</h5>
                 <p className="card-text">{product.description}</p>
+                <p className='card-text rating'><FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
+                </p>
                 <p className="card-text fw-bold">{`₹${product.price}`}</p>
                 <button className='btn btn-warning' onClick={handleClick}>{buttonText}</button>
             </div>

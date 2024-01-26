@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from './Navbar';
 import Card from './Card';
 import { useState } from 'react';
@@ -11,7 +12,8 @@ function App() {
       image:"https://assets.ajio.com/medias/sys_master/root/20231013/z9Tj/65289c27ddf779151938c101/-473Wx593H-466485728-black-MODEL3.jpg",
       name:"Long Gown",
       description:"Casual wear, Black color",
-      price:800
+      price:800,
+      rating:true
     },
     {
       image:"https://5.imimg.com/data5/SELLER/Default/2021/1/SV/VO/EW/25739518/pink-women-maxi-dress.jpg",
@@ -23,7 +25,8 @@ function App() {
       image:"https://www.wholesaletextile.in/product-img/Bipson-Riya-1796-Catalog-Women1-1649837175.jpeg",
       name:"Salwar suit",
       description:"Ethnic set",
-      price: 750
+      price: 750,
+      rating:true
     },
     {
       image:"https://assets.ajio.com/medias/sys_master/root/20230621/b4fw/64923837d55b7d0c6385f991/-1117Wx1400H-463529623-blue-MODEL.jpg",
